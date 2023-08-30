@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+    background-image: url(./bigstock-Luxury-Restaurant-In-European-52461799.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    position: absolute;
+   left: 800px;
+    bottom: 400px;
+    top: 200px;
+    font-style: italic;
+    color: darkgreen;
+    font-size: medium;
+
+    
+}
+ .names{
+     position: absolute;
+    left: 730px;
+    bottom: 400px;
+    top: 250px;
+    font-style: italic;
+    color: darkgreen;
+    font-size: medium;
+
+} 
+.vegthali{
+
+    background-color:chocolate;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 900px;
+    
+    display: inline-block;
+   
+   
+
+}
+.nonveg{
+background-color:chocolate;
+width: 300px;
+padding: 50px;
+margin: 20px;
+position: absolute;
+left: 550px;
+display: inline-block;
+}
+.chicken{
+
+position:relative;
+top: 400px;
+left: 500px;
+
+}
+.mutton{
+    position:relative;  
+    top: 70px;
+    left: 100px;
+}
+.egg{
+    position: relative;
+    bottom: 275px;
+    left: 900px;
+  
+}
+.fish{
+    position: relative;
+    left: 1300px;
+    bottom: 620px;
+    
+    
+}
+.pappu{
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+.lady{
+    position:relative;
+    left: 500px;
+    bottom: 840px;
+}
+.brinjal{
+    position:relative;
+    left: 900px;
+    bottom:1180px ;
+}
+.potato{
+    position: relative;
+    left: 1300px;
+    bottom:1525px ;
+}
+.footer{
+    padding: 30px;
+    position: relative;
+    bottom:1400px ;
+    text-align: center;
+    background-color:black;
+    color: white;
+    
+
+}

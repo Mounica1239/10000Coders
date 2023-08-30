@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box ;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
+
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #111;
+
+        }
+        h2{
+            position:relative;
+            font-size: 6rem;
+            color:#222
+        }
+        h2::before{
+            content: attr(data-text);
+        position: absolute;
+        color: white;
+        border-right:4px solid white ;
+        width: 250px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: animate 3s linear infinite;
+        filter: drop-shadow(0 0 20px yellow);
+
+        }
+        @keyframes animate{
+            0%,10%,100%{
+                width: 0;
+            }
+            70%,90%{
+                width: 100%;
+            }
+        }
+         
+    </style>
+</head>
+<body>
+    <h2 data-text="❤️ Bhanu Mouni ❤️">❤️ Bhanu Mouni❤️</h2> -->
+        <style>
+            @keyframes example{
+                0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+            h2{
+                width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
+  border-radius: 50px;
+  text-align: center;
+  line-height: 90px;
+  display: inline-block;
+
+  
+            }
+            h3{
+                width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: reverse; 
+  border-radius: 50px;
+  text-align: center;
+  line-height: 90px;
+  display: inline-block;
+
+
+  
+            }
+
+        </style>
+            <body>
+
+
+    <h2>Mouni</h2>
+    <h3>bhanu</h3>
+
+</body>
+</html>

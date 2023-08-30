@@ -1,0 +1,230 @@
+body {
+  background-color: #f1f1f1;
+}
+.text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+  font-size: 28px;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.imagesettings {
+  display: inline-block;
+}
+.icons {
+  display: inline-block;
+  margin-left: 50px;
+}
+.icons i {
+  margin: 15px;
+}
+.left {
+  padding: 30px;
+  left: 0;
+  top: 25px;
+  background-color: white;
+  height: 100%;
+  width: 300px;
+  overflow: auto;
+  position: fixed;
+}
+.fonts {
+  font-size: 18px;
+}
+.fonts p:hover {
+  background-color: gray;
+}
+.fonts p {
+  height: 50px;
+}
+.countries table tr:hover {
+  background-color: gray;
+}
+.fonts1 {
+  background-color: blue;
+}
+
+.iteam1 {
+  padding: 20px;
+  background-color: orangered;
+  width: 310px;
+  font-size: 28px;
+  height: 150px;
+  display: inline-block;
+}
+.iteam1 i {
+  margin: 15px;
+}
+.iteam2 {
+  padding: 20px;
+  background-color: blueviolet;
+  width: 310px;
+  font-size: 28px;
+  height: 150px;
+  display: inline-block;
+}
+.iteam2 i {
+  margin: 15px;
+}
+.iteam3 {
+  padding: 20px;
+  background-color: cornflowerblue;
+  width: 310px;
+  font-size: 28px;
+  height: 150px;
+  display: inline-block;
+}
+.iteam3 i {
+  margin: 15px;
+}
+.iteam4 i {
+  margin: 15px;
+}
+.iteam4 {
+  padding: 20px;
+  background-color: orange;
+  width: 310px;
+  font-size: 28px;
+  height: 150px;
+  display: inline-block;
+}
+.right {
+  left: 370px;
+  position: absolute;
+  top: 40px;
+}
+
+.region {
+  width: 35%;
+}
+.table {
+  margin-left: 100px;
+}
+.table tr:nth-child(odd) {
+  background-color: white;
+}
+.countries tr:nth-child(odd) {
+  background-color: white;
+}
+
+.totalleftandright {
+  display: flex;
+}
+.one {
+  background-color: gray;
+  width: 1400px;
+  height: 50px;
+}
+.two {
+  width: 350px;
+  background-color: green;
+  height: 50px;
+}
+.three {
+  background-color: gray;
+  width: 1400px;
+  height: 50px;
+}
+.four {
+  width: 700px;
+  background-color: orangered;
+  height: 50px;
+}
+.five {
+  background-color: gray;
+  width: 1400px;
+  height: 50px;
+}
+.six {
+  background-color: red;
+  height: 50px;
+  width: 1050px;
+}
+
+.countries td {
+  padding: 20px 650px 20px 0px;
+}
+.table td {
+  /* padding: 20px 20px 20px 20px; */
+  padding: 15px 70px 15px 0px;
+  font-size: 24px;
+}
+.download {
+  background-color: gray;
+  padding: 5px;
+
+  width: 150px;
+  font-size: 24x;
+  height: 30x;
+  text-align: center;
+}
+.users {
+  font-size: 24px;
+
+  background-color: white;
+}
+#one {
+  display: inline-block;
+  margin: 15px;
+}
+#two {
+  display: inline-block;
+  width: 500px;
+  /* margin-bottom: 50px; */
+  margin: 50px;
+  /* margin-top: -150px; */
+}
+#three {
+  display: inline-block;
+}
+#four {
+  display: inline-block;
+  /* margin-top: -150px; */
+
+  width: 500px;
+  margin: 50px;
+}
+.demographic {
+  display: inline-block;
+}
+.system {
+  display: inline-block;
+
+  margin-left: 100px;
+  /* padding-left: 80px; */
+}
+.target {
+  display: inline-block;
+  margin-left: 100px;
+}
+.tone {
+  padding: 40px;
+  background-color: gray;
+  height: 250px;
+}
+.none1 {
+  background-color: green;
+  width: 390px;
+  height: 8px;
+}
+.none2 {
+  background-color: red;
+  width: 390px;
+  height: 8px;
+}
+.none3 {
+  background-color: yellow;
+  width: 390px;
+  height: 8px;
+}
+table,
+tr,
+td {
+  border-collapse: collapse;
+}

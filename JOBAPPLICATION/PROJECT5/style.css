@@ -1,0 +1,19 @@
+.navigation{
+    float: left;
+    max-width: 1200px;
+    margin: auto;
+  
+}
+.icon{
+    float: right;
+    
+
+}
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+     
+}

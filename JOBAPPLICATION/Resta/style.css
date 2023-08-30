@@ -1,0 +1,165 @@
+.right {
+  margin-left: 1100px;
+  word-spacing: 25px;
+}
+.left {
+  margin-left: 20px;
+}
+.header {
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 10px;
+  height: 50px;
+}
+.backgroundimageplace {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 50px;
+  font-size: 42px;
+  letter-spacing: 10px;
+  color: gray;
+}
+.hero {
+  background-image: url(./hamburger.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cateringimage {
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.containerleft {
+  display: inline-block;
+}
+.rightcontainer {
+  display: inline-block;
+  margin-left: 80px;
+  position: absolute;
+  top: 1100px;
+}
+h1 {
+  text-align: center;
+  font-size: 44px;
+  letter-spacing: 6px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 6px;
+}
+.firstparagraph {
+  font-size: 20px;
+}
+.secondparagraph {
+  font-size: 20px;
+  position: absolute;
+  top: 480px;
+  color: gray;
+}
+hr {
+  margin-top: 100px;
+}
+.pagetwo {
+  margin-left: 250px;
+  display: inline-block;
+  position: relative;
+  bottom:130px;
+}
+.pagetworight {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+h2 {
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+.paratwocontent {
+  font-size: 20px;
+  color: gray;
+}
+.paratwocontent1 {
+  position: relative;
+  bottom: 400px;
+}
+.threepage {
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.contact {
+  font-size: 40px;
+}
+.information {
+  margin-top: 100px;
+
+  font-size: 20px;
+}
+.information1 {
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+.information1 {
+  color: cadetblue;
+
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.information2 {
+  margin-top: 50px;
+}
+
+.addresspurpose {
+  margin-left: 280px;
+}
+
+input {
+  width: 1300px;
+  height: 40px;
+}
+.button {
+  width: 200px;
+  height: 40px;
+}
+h5{
+    background-color: gray;
+    padding: 10px;
+    height: 30px;
+    width: 120px;
+}
+.footerone{
+    margin-top: 100px;
+
+    background-color:cornsilk;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    font-size: 28px;
+
+}
+.menu1{
+  margin-top: 50px;
+
+
+
+}
+.menu2{
+  margin-top: 50px;
+
+}
+.menu3{
+  margin-top: 50px;
+
+}
+.menu4{
+
+margin-top: 50px;
+}
+.menu5{
+  margin-top: 50px;
+
+}

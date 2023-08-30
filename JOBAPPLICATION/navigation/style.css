@@ -1,0 +1,14 @@
+.navigation{
+    padding: 50px;
+background-color: aqua;
+text-decoration: none;
+width: 100%;
+
+
+text-align: center;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}

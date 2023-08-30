@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    *{
+    font-family: montserrat;
+    }
+    body{
+        background: f1fbff;
+    }
+    .section-padding{
+        height: 100vh;
+        min-width: 300px;
+    }
+    .carousel-caption{
+        bottom: 500px;
+        z-index: 2;
+
+    }
+    .carousel-caption h5{
+        font-size:45px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-top: 25px;
+    }
+    .carousel-caption p{
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+
+    }
+    .carousel-inner::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: rgba(0,0,0,0,7);
+        z-index: 1;
+    }
+    .navbar-nav{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;  
+    }
+    .navbar-light .navbar-brand{
+        color: #000;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .navbar-light .navbar-brand:focus,
+    .navbar-light .navbar-brand:hover{
+        color: #000;
+
+    }
+    .navbar-light .navbar-nav .navbar-link{
+        color: #000;
+    }
+    .w-100{
+        height: 100vh;
+
+    }
+    @media only screen and(max-width:767px) and (max-width:991px) {
+        .carousel-caption{
+            bottom: 350px;
+        }
+        .carousel-caption p{
+width: 100%;
+        }
+    }
+    @media only screen and(max-width:767px) {
+        .navbar-nav{
+            text-align: center;
+        }
+        .carousel-caption{
+            bottom:125px;
+        }
+        .carousel-caption h5{
+            padding: 10px 15px;
+            font-size: 17px;
+
+        } 
+        .carousel-caption a{
+            padding: 10px 15px;
+        }
+        .carousel-caption p{
+            width: 100%;
+            line-height: 1.6;
+            font-size: 12px;
+        } 
+        
+    }
+    .vegthali{
+
+background-color:chocolate;
+width: 300px;
+padding: 50px;
+height: 420px;
+margin: 20px;
+position: absolute;
+left: 900px;
+
+display: inline-block;
+
+
+
+}
+.nonveg{
+background-color:chocolate;
+width: 300px;
+padding: 50px;
+margin: 20px;
+position: absolute;
+left: 550px;
+display: inline-block;
+}
+
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">Yummy</span>Con
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 style="color: coral">Welcome to My Restaurant</h5>
+              <p style="color:deepskyblue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, earum! Laboriosam atque distinctio animi odio.</p>
+              <p><a href='#' class="btn btn-warning mt-3">LearMore</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./N-8dtAdp.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 style="color: coral">Enjoy Your healthy Delicious food</h5>
+              <p style="color:deepskyblue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, earum! Laboriosam atque distinctio animi odio.</p>
+              <p><a href='#' class="btn btn-warning mt-3">LearMore</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./wp1874173.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 style="color: coral"> Enjoy Your Favorite Food</h5>
+             <p style="color:deepskyblue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, earum! Laboriosam atque distinctio animi odio.</p>
+              <p><a href='#' class="btn btn-warning mt-3">LearMore</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+            <!-- aboutsecction -->
+
+<section id="about" class="about-section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="about-img">
+                    <img src="./tablesetting2.jpg" class="img-fluid">
+
+                </div>
+
+            </div>
+<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+    <div class="about-text">
+        <h2>We Provide Best Quality Services Ever</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis asperiores non qui commodi aspernatur quas maxime, dolor labore accusamus placeat eaque at, quidem, ducimus soluta repellat fugit mollitia nemo vero.</p>
+        <p>
+            
+            The Catering was founded in blabla by Mr. Smith in lorem ipsum
+            
+            dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,
+            
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            
+            nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in
+            
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            
+            pariatur.We only use seasonal ingredients.
+            
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</p>
+<a href="#" class="btn btn-warning">Learn More</a>
+    </div>
+     
+</div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ,services -->
+<section id="services" class="services section-padding">  
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint</p>
+
+                </div>
+
+            </div>
+    
+
+</div>
+<div class="items1">
+  <div class="vegthali">
+      <img src="./OIF.jpeg" alt="image" height="150" width="150">
+      <h3>VEG THALI</h3>
+      <li>Pappu</li>
+      <li>Lady Finger</li>
+      <li>Brinjal</li>
+      <li>Potato</li>
+  </div>
+  <div class="nonveg">
+      <img src="./maxresdefault.jpg" alt="image" height="150" width="150">
+      <h3>NON-VEG THALI</h3>
+      <li>Chicken</li>
+      <li>Mutton</li>
+      <li>Fish</li>
+      <li>Egg</li>
+  </div>
+</diV>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

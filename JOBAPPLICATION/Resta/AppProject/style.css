@@ -1,0 +1,203 @@
+.matter1{
+    padding: 8px 16px;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+}
+.matter1:hover {
+    background-color: black;
+    color: white;
+}
+.button{
+    width: 480px;
+    height: 50px;
+    background-color: green;
+}
+.left1{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+body{
+    font-size: 20px;
+}
+.download{
+    background-color:azure;
+    padding: 10px;
+    width: 250px;
+    font-size: 24px;
+
+}
+.download:hover{
+    background-color: gray;
+    color: white;
+
+}
+.secondpageright{
+     padding: 20px;
+    width: 300px;
+    height: 420px;
+    border: 25px solid grey;
+    border-radius: 20px;
+    float: right; 
+    font-size: 18px;
+
+    
+}
+.secondpage{
+     float: left; 
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    font-size: 24px;
+    
+}
+ 
+.totalsecondpage{
+    padding: 20px;
+    height:500px ;
+}
+.threeleft{
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    font-size: 24px;
+    float: right;
+}
+.threeright{
+    float: left;
+
+}
+.totalthirdpage{
+background-color: #f1f1f1;
+height: 650px;
+
+
+}
+.a{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.b{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.c{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.d{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.fourtotal{
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+
+}
+.icon1 {
+    transform: scale(4,4);
+    
+}
+.e{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+}
+.f{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.g{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.h{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.i{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.j{
+    
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+
+    
+}
+.k{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.l{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.five{
+list-style-type: none;
+display: inline-block;
+padding: 20px;
+
+height: 400px;
+width: 830px;
+text-align: center;
+
+
+
+}
+.fiveright{
+    list-style-type: none;
+    display: inline-block;
+padding: 20px;
+height: 400px;
+width: 830px;
+text-align: center;
+
+
+
+}
+.fiveright  button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+
+}
+.five button{
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    width: 200px;
+    
+}
+
+.last{
+    padding: 50px;
+    background-color:#f1f1f1;
+    
+    margin: 25px;
+    height: 100px;
+    width: 1800px;
+    text-align: center;
+}
+
+
