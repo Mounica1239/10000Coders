@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+
+            padding: 0px;
+            margin-left: 500px;
+            
+        }
+
+        .grid-container>div {
+            text-align: center;
+            padding: 20px 0px;
+            border: 2px solid black;
+            
+
+
+        }
+
+        .grid-container,
+        .item1:nth-child(even) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+
+        }
+
+        .grid-container,
+
+        .item1:nth-child(odd) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .black {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+        }
+
+        /* .grid-container, */
+
+        .white {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item3:nth-child(odd) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item3:nth-child(even) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item4:nth-child(odd) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item4:nth-child(even) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item5:nth-child(odd) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item5:nth-child(even) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item6:nth-child(odd) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item6:nth-child(even) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item7:nth-child(odd) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item71:nth-child(even) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .grid-container,
+
+        .item8:nth-child(odd) {
+            background-color: black;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        .item8:nth-child(even) {
+            background-color: white;
+            height: 30px;
+            width: 90px;
+
+        }
+
+        /* Add icons using Unicode characters for chess pieces */
+        .grid-container div.item2:before {
+            content: "\265F";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item1 .piece-white-king:before {
+            content: "\2654";
+            /* White King */
+        }
+
+        .grid-container div.item1 .piece-black-pawn:before {
+            content: "\265F";
+            /* Black Pawn */
+        }
+
+        /* Add icons using Unicode characters for chess pieces */
+        .grid-container div.item7:before {
+            content: "\265F";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item71:before {
+            content: "\265F";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            color: white;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.white:before {
+            content: "\265F";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            line-height: 30px;
+
+        }
+
+        .grid-container div.black:before {
+            content: "\265F";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            line-height: 30px;
+            color: white;
+
+        }
+
+        .grid-container div.item1 .piece-white-king:before {
+            content: "\2654";
+            /* White King */
+        }
+
+        .grid-container div.item1 .piece-black-pawn:before {
+            content: "\265F";
+            /* Black Pawn */
+        }
+
+        .grid-container div.item1:before {
+            content: "\265C";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item11:before {
+            content: "\265E";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item111:before {
+            content: "\2657";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item1111:before {
+            content: "\2655";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+            color: white;
+
+        }
+
+        .grid-container div.item11111:before {
+            content: "\265A";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item8:before {
+            content: "\2656";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item81:before {
+            content: "\2658";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item811:before {
+            content: "\265D";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+            color: white;
+
+        }
+
+        .grid-container div.item8114:before {
+            content: "\2657";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+
+        }
+
+        .grid-container div.item8111:before {
+            content: "\2655";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+            color: black;
+
+        }
+
+        .grid-container div.item81111:before {
+            content: "\2654";
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            line-height: 30px;
+            color: white;
+
+        }
+        h1{
+            text-align: center;
+            
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+<h1>CHESS BOARD </h1>  
+    <div class="grid-container">
+        <div class="item1"></div>
+        <div class="item11" style="background-color: black; color:white"></div>
+        <div class="item111"></div>
+        <div class="item1111" style="background-color: black;"></div>
+        <div class="item11111"></div>
+        <div class="item111" style="background-color: black; color: white;"></div>
+        <div class="item11" style="color: black;"></div>
+        <div class="item1" style="background-color: black; color: white;"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+        <div class="item3"></div>
+
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+        <div class="item4"></div>
+
+
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+        <div class="item5"></div>
+
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+        <div class="item6"></div>
+
+        <div class="item7"></div>
+        <div class="item71"></div>
+        <div class="item7"></div>
+        <div class="item71"></div>
+        <div class="item7"></div>
+        <div class="item71"></div>
+        <div class="item7"></div>
+        <div class="item71"></div>
+
+
+
+
+        <div class="item8" style="color: white;"></div>
+        <div class="item81" style="background-color: white;"></div>
+        <div class="item811" style="background-color: black;"></div>
+        <div class="item8111"></div>
+        <div class="item81111" style="background-color: black;"></div>
+        <div class="item8114" style="background-color: white; color: black;"></div>
+        <div class="item81" style="background-color: black; color: white;"></div>
+        <div class="item8" style="color: black;"></div>
+
+
+</div>
+</body>
+
+</html>
